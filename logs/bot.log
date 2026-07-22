@@ -138,3 +138,11 @@
 2026-07-22 16:24:19 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
 2026-07-22 16:24:19 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
 2026-07-22 16:24:19 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 16:32:13 | INFO | yumi_almaz | [sub-debug] user=7560498554 jami kanallar=2
+2026-07-22 16:32:13 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:32:14 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 16:32:14 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:32:14 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 16:32:14 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 16:35:08 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 16:35:08 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
