@@ -357,3 +357,5 @@
 2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
 2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
 2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 09:53:48 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-23 09:53:48 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
