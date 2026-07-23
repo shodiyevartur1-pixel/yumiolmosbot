@@ -7,11 +7,19 @@ from app.config import config
 
 REFERRAL_BONUS_KEY = "referral_bonus"
 MIN_WITHDRAW_KEY = "min_withdraw"
+CARD_OWNER_KEY = "card_owner"
+CARD_NUMBER_KEY = "card_number"
+PAYMENT_NOTE_KEY = "payment_note"
+PAYMENT_ENABLED_KEY = "payment_enabled"
 
 
 async def ensure_defaults():
     await _set_if_absent(REFERRAL_BONUS_KEY, str(config.default_referral_bonus))
     await _set_if_absent(MIN_WITHDRAW_KEY, str(config.default_min_withdraw))
+    await _set_if_absent(CARD_OWNER_KEY, config.default_card_owner)
+    await _set_if_absent(CARD_NUMBER_KEY, config.default_card_number)
+    await _set_if_absent(PAYMENT_NOTE_KEY, config.default_payment_note)
+    await _set_if_absent(PAYMENT_ENABLED_KEY, "1" if config.default_payment_enabled else "0")
 
 
 async def _set_if_absent(key: str, value: str):
@@ -56,3 +64,38 @@ async def get_min_withdraw() -> int:
 
 async def set_min_withdraw(amount: int):
     await set_setting(MIN_WITHDRAW_KEY, str(amount))
+
+
+async def get_card_owner() -> str:
+    return await get_setting(CARD_OWNER_KEY, config.default_card_owner)
+
+
+async def set_card_owner(value: str):
+    await set_setting(CARD_OWNER_KEY, value)
+
+
+async def get_card_number() -> str:
+    return await get_setting(CARD_NUMBER_KEY, config.default_card_number)
+
+
+async def set_card_number(value: str):
+    await set_setting(CARD_NUMBER_KEY, value)
+
+
+async def get_payment_note() -> str:
+    return await get_setting(PAYMENT_NOTE_KEY, config.default_payment_note)
+
+
+async def set_payment_note(value: str):
+    await set_setting(PAYMENT_NOTE_KEY, value)
+
+
+async def get_payment_enabled() -> bool:
+    value = await get_setting(
+        PAYMENT_ENABLED_KEY, "1" if config.default_payment_enabled else "0"
+    )
+    return value == "1"
+
+
+async def set_payment_enabled(enabled: bool):
+    await set_setting(PAYMENT_ENABLED_KEY, "1" if enabled else "0")

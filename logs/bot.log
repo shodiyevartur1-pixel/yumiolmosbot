@@ -146,3 +146,214 @@
 2026-07-22 16:32:14 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
 2026-07-22 16:35:08 | INFO | yumi_almaz | Bot to'xtatildi.
 2026-07-22 16:35:08 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 16:46:44 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 16:46:53 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 16:46:53 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:46:54 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 16:46:54 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:46:54 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 16:46:54 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 16:46:54 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 16:47:32 | INFO | yumi_almaz | [sub-debug] user=7560498554 jami kanallar=2
+2026-07-22 16:47:32 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:47:33 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 16:47:33 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:47:33 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 16:47:33 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 16:48:01 | INFO | yumi_almaz | [sub-debug] user=6553891855 jami kanallar=2
+2026-07-22 16:48:01 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:48:02 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:48:02 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:48:02 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 16:48:02 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:48:02 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=2
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] user=6553891855 jami kanallar=2
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:48:05 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=2
+2026-07-22 16:50:39 | INFO | yumi_almaz | Join request qayd qilindi: chat=-1003778217296 user=6553891855
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] user=6553891855 jami kanallar=2
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 16:50:41 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] user=6553891855 jami kanallar=2
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 16:52:38 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=1
+2026-07-22 16:59:49 | INFO | yumi_almaz | [sub-debug] user=8056489352 jami kanallar=2
+2026-07-22 16:59:49 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 16:59:49 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 16:59:50 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 16:59:50 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 16:59:50 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 16:59:50 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=1
+2026-07-22 17:00:01 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 17:00:01 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 17:00:06 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 17:00:10 | INFO | yumi_almaz | [sub-debug] user=8056489352 jami kanallar=2
+2026-07-22 17:00:10 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:00:10 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 17:00:10 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:00:10 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 17:00:11 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.LEFT
+2026-07-22 17:00:11 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=1
+2026-07-22 17:00:15 | INFO | yumi_almaz | Join request qayd qilindi: chat=-1003778217296 user=8056489352
+2026-07-22 17:00:19 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 17:00:19 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:00:19 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:00:19 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:00:19 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] user=8056489352 jami kanallar=2
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 17:00:20 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] user=8056489352 jami kanallar=2
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.MEMBER
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: True
+2026-07-22 17:00:33 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:00:33 | INFO | yumi_almaz | Yangi user ro'yxatdan o'tdi: 8056489352 wallet=1Y0C7
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:01:11 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:28:23 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 17:30:05 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 17:30:05 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:30:06 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:30:06 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:30:06 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 17:30:06 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:30:06 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:32:03 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 17:32:03 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 17:32:04 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:32:04 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 17:32:04 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 17:32:04 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 17:32:04 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 17:33:00 | INFO | yumi_almaz | Admin 8059999086 userga balans qo'shdi: 8059999086 +500
+2026-07-22 17:33:33 | INFO | yumi_almaz | Yechish so'rovi yaratildi: user=8059999086 amount=500 game_id=MJ7R4
+2026-07-22 17:33:36 | INFO | yumi_almaz | Yechish so'rovi tasdiqlandi: id=4 admin=8059999086
+2026-07-22 20:32:54 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 20:33:26 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 20:33:26 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 20:33:32 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 20:39:52 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 20:39:52 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 20:39:53 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 20:39:53 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 20:39:53 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 20:39:53 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 20:39:53 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 21:33:08 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 21:33:08 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 21:33:13 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 21:42:42 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 21:42:42 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 21:42:47 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 21:42:54 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 21:42:54 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 21:42:54 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:42:54 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 21:42:54 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 21:42:55 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:42:55 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 21:43:05 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 21:43:05 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 21:43:06 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:43:06 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 21:43:06 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 21:43:06 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:43:06 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 21:44:11 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-22 21:44:11 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-22 21:44:15 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-22 21:44:17 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 21:44:17 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-22 21:44:18 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-22 21:44:19 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:44:19 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-22 21:44:19 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-22 21:44:19 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-22 21:44:19 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 08:45:53 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-23 08:51:49 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 08:51:49 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 08:51:50 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 08:51:50 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 08:51:50 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 08:51:50 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 08:51:50 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 08:51:52 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 08:55:53 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-23 08:55:53 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-23 09:00:48 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-23 09:01:14 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 09:01:14 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 09:01:15 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:01:15 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 09:01:15 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 09:01:15 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:01:15 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 09:03:22 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-23 09:03:22 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-23 09:03:31 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-23 09:03:37 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 09:03:37 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 09:03:38 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:03:38 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 09:03:38 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 09:03:38 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:03:38 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 09:05:08 | INFO | yumi_almaz | Bot to'xtatildi.
+2026-07-23 09:05:08 | INFO | yumi_almaz | Bot qo'lda to'xtatildi.
+2026-07-23 09:05:16 | INFO | yumi_almaz | Bot ishga tushdi.
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:05:21 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:10:20 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0
+2026-07-23 09:12:53 | INFO | yumi_almaz | [sub-debug] user=8059999086 jami kanallar=2
+2026-07-23 09:12:53 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=5 title='shdyvv 💎' chat_id=None username='isbot_savdoo' invite_link=None
+2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] ochiq kanal get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] tekshirilyapti: id=10 title="Yumi Omlos To'lov Kanali" chat_id='-1003778217296' username=None invite_link='https://t.me/+rMThF6hDC10yZWMy'
+2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] yopiq kanal, join_request bazada bormi: False
+2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] get_chat_member natijasi: ChatMemberStatus.CREATOR
+2026-07-23 09:12:54 | INFO | yumi_almaz | [sub-debug] natija: obuna bo'lmagan kanallar soni=0

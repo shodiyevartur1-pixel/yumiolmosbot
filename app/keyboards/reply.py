@@ -5,6 +5,7 @@ MAIN_MENU_BUTTONS = {
     "referral": "👥 Referal",
     "balance": "💎 Balans",
     "withdraw": "🎁 Almazni yechish",
+    "purchase": "🛒 Almaz sotib olish",
     "history": "📜 Tarix",
     "admin": "☎ Admin",
 }
@@ -12,13 +13,18 @@ MAIN_MENU_BUTTONS = {
 
 def main_menu(is_admin: bool = False) -> ReplyKeyboardMarkup:
     rows = [
-        [KeyboardButton(text=MAIN_MENU_BUTTONS["profile"]), KeyboardButton(text=MAIN_MENU_BUTTONS["referral"])],
+        [KeyboardButton(text=MAIN_MENU_BUTTONS["purchase"]), KeyboardButton(text=MAIN_MENU_BUTTONS["referral"])],
         [KeyboardButton(text=MAIN_MENU_BUTTONS["balance"]), KeyboardButton(text=MAIN_MENU_BUTTONS["withdraw"])],
-        [KeyboardButton(text=MAIN_MENU_BUTTONS["history"])],
+        [KeyboardButton(text=MAIN_MENU_BUTTONS["profile"]), KeyboardButton(text=MAIN_MENU_BUTTONS["history"])],
     ]
+
     if is_admin:
         rows.append([KeyboardButton(text=MAIN_MENU_BUTTONS["admin"])])
-    return ReplyKeyboardMarkup(keyboard=rows, resize_keyboard=True)
+
+    return ReplyKeyboardMarkup(
+        keyboard=rows,
+        resize_keyboard=True
+    )
 
 
 def cancel_keyboard() -> ReplyKeyboardMarkup:
@@ -39,6 +45,7 @@ ADMIN_MENU_BUTTONS = [
     "🎁 Minimal yechishni o'zgartirish",
     "➕ Userga almaz qo'shish",
     "➖ Userdan almaz ayirish",
+    "💳 To'lov sozlamalari",
     "🔍 User qidirish",
     "🚫 Ban",
     "✅ Unban",
@@ -46,7 +53,6 @@ ADMIN_MENU_BUTTONS = [
     "📦 Transfer history",
     "📈 Aktiv userlar",
     "📅 Bugungi userlar",
-    "♻ Restart",
     "🔙 Bosh menu",
 ]
 

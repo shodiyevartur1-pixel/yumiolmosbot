@@ -63,3 +63,19 @@ class AdminUnbanStates(StatesGroup):
 
 class AdminAddAdminStates(StatesGroup):
     waiting_user = State()
+
+
+class PurchaseStates(StatesGroup):
+    waiting_receipt = State()
+
+
+class AdminPaymentSettingsStates(StatesGroup):
+    waiting_card_owner = State()
+    waiting_card_number = State()
+    waiting_payment_note = State()
+
+
+class AdminPackageStates(StatesGroup):
+    waiting_diamonds = State()
+    waiting_price = State()
+    waiting_remove_choice = State()

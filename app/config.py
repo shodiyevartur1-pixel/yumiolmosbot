@@ -33,6 +33,17 @@ class Config:
     default_referral_bonus: int = int(os.getenv("DEFAULT_REFERRAL_BONUS", "30"))
     default_min_withdraw: int = int(os.getenv("DEFAULT_MIN_WITHDRAW", "300"))
 
+    # To'lov tizimi uchun standart qiymatlar (keyinchalik "settings" jadvalida
+    # saqlanadi va admin panel orqali istalgan vaqtda o'zgartiriladi)
+    default_card_owner: str = os.getenv("DEFAULT_CARD_OWNER", "Admin")
+    default_card_number: str = os.getenv("DEFAULT_CARD_NUMBER", "9860 6067 5238 6163")
+    default_payment_note: str = os.getenv(
+        "DEFAULT_PAYMENT_NOTE",
+        "To'lovni amalga oshirgandan so'ng \"✅ To'lov qildim\" tugmasini bosing "
+        "va chek (screenshot) ni yuboring.",
+    )
+    default_payment_enabled: bool = os.getenv("DEFAULT_PAYMENT_ENABLED", "1") == "1"
+
     # Flood / rate limit sozlamalari
     rate_limit_seconds: float = float(os.getenv("RATE_LIMIT_SECONDS", "0.7"))
 

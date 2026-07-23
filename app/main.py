@@ -16,6 +16,7 @@ from app.utils.logger import logger
 # --- Handlers (routerlar) ---
 from app.handlers import start as start_handler
 from app.handlers import profile as profile_handler
+from app.handlers import purchase as purchase_handler
 from app.handlers import referral as referral_handler
 from app.handlers import balance as balance_handler
 from app.handlers import transfer as transfer_handler
@@ -51,6 +52,7 @@ def register_routers():
     dp.include_router(admin_stats_handler.router)
     dp.include_router(admin_restart_handler.router)
     dp.include_router(profile_handler.router)
+    dp.include_router(purchase_handler.router)
     dp.include_router(referral_handler.router)
     dp.include_router(balance_handler.router)
     dp.include_router(transfer_handler.router)

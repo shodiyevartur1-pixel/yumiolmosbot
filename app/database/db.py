@@ -73,9 +73,32 @@ CREATE TABLE IF NOT EXISTS broadcast_logs (
     created_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS diamond_packages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    diamonds INTEGER NOT NULL,
+    price INTEGER NOT NULL,
+    is_active INTEGER NOT NULL DEFAULT 1,
+    sort_order INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS purchases (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    package_id INTEGER,
+    diamonds INTEGER NOT NULL,
+    price INTEGER NOT NULL,
+    receipt_file_id TEXT,
+    status TEXT NOT NULL DEFAULT 'pending',
+    created_at TEXT NOT NULL,
+    processed_at TEXT,
+    processed_by INTEGER
+);
+
 CREATE INDEX IF NOT EXISTS idx_users_wallet ON users(wallet_id);
 CREATE INDEX IF NOT EXISTS idx_referrals_referrer ON referrals(referrer_id);
 CREATE INDEX IF NOT EXISTS idx_withdraws_status ON withdraws(status);
+CREATE INDEX IF NOT EXISTS idx_purchases_status ON purchases(status);
+CREATE INDEX IF NOT EXISTS idx_purchases_user ON purchases(user_id);
 """
 
 
