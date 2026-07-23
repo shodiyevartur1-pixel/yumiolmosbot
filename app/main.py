@@ -5,6 +5,9 @@ Ishga tushirish:
     python -m app.main
 """
 import asyncio
+import os
+
+from aiohttp import web
 
 from app.loader import bot, dp
 from app.database.db import db
@@ -73,12 +76,24 @@ async def on_shutdown():
     logger.info("Bot to'xtatildi.")
 
 
+async def start_fake_web_server():
+    port = int(os.environ.get("PORT", 8080))
+    app = web.Application()
+    app.router.add_get("/", lambda request: web.Response(text="Bot ishlayapti."))
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+    logger.info(f"Soxta web server {port}-portda ishga tushdi (Render uchun).")
+
+
 async def main():
     register_middlewares()
     register_routers()
 
     await on_startup()
     try:
+        await start_fake_web_server()
         await bot.delete_webhook(drop_pending_updates=True)
         await dp.start_polling(bot)
     finally:
