@@ -8,7 +8,7 @@
 from aiogram import Router, F
 from aiogram.filters import CommandStart, CommandObject
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message, CallbackQuery, User
 
 from app.database import users_repo, channels_repo, referrals_repo, settings_repo, admins_repo
 from app.keyboards.inline import subscription_keyboard
@@ -36,7 +36,7 @@ async def _valid_referrer(referrer_id: int | None, user_id: int) -> int | None:
     return None
 
 
-async def _notify_referrer_pending(bot, user, referrer_id: int | None, state: FSMContext) -> None:
+async def _notify_referrer_pending(bot, user: User, referrer_id: int | None, state: FSMContext) -> None:
     """
     Foydalanuvchi referal havola orqali kirdi, lekin hali majburiy
     kanallarga to'liq a'zo bo'lmadi - referrer'ga bir martalik
@@ -77,8 +77,19 @@ async def _send_subscription_prompt(message_or_callback, not_subscribed) -> None
         await message_or_callback.answer(text, reply_markup=keyboard)
 
 
-async def _finish_registration(message: Message, referrer_id: int | None):
-    user_id = message.from_user.id
+async def _finish_registration(message: Message, user: User, referrer_id: int | None):
+    """
+    message - javob yuborish uchun ishlatiladigan Message obyekti (chat
+               kontekstini berish uchun; bu callback.message ham bo'lishi
+               mumkin, ya'ni BOTNING o'zi yuborgan xabar).
+    user    - HARAKAT QILAYOTGAN haqiqiy foydalanuvchi (message.from_user
+               yoki callback.from_user). Foydalanuvchini ro'yxatdan
+               o'tkazish va aniqlash FAQAT shu orqali amalga oshiriladi -
+               message.from_user orqali EMAS, chunki callback oqimida
+               message.from_user - bu botning o'zi bo'lib chiqadi va bu
+               "avval /start bosing" xatosiga olib kelgan edi.
+    """
+    user_id = user.id
     is_new = not await users_repo.user_exists(user_id)
 
     if is_new:
@@ -86,8 +97,8 @@ async def _finish_registration(message: Message, referrer_id: int | None):
 
         await users_repo.create_user(
             user_id=user_id,
-            username=message.from_user.username,
-            first_name=message.from_user.first_name,
+            username=user.username,
+            first_name=user.first_name,
             referred_by=valid_referrer,
         )
 
@@ -95,8 +106,8 @@ async def _finish_registration(message: Message, referrer_id: int | None):
             bonus = await settings_repo.get_referral_bonus()
             await referrals_repo.register_referral(valid_referrer, user_id, bonus)
 
-            invited_name = message.from_user.first_name or (
-                f"@{message.from_user.username}" if message.from_user.username else f"ID{user_id}"
+            invited_name = user.first_name or (
+                f"@{user.username}" if user.username else f"ID{user_id}"
             )
             try:
                 await message.bot.send_message(
@@ -107,9 +118,7 @@ async def _finish_registration(message: Message, referrer_id: int | None):
             except Exception:
                 pass
     else:
-        await users_repo.update_username(
-            user_id, message.from_user.username, message.from_user.first_name
-        )
+        await users_repo.update_username(user_id, user.username, user.first_name)
 
     is_admin = await admins_repo.is_admin(user_id)
     await message.answer(
@@ -140,7 +149,7 @@ async def cmd_start(message: Message, command: CommandObject, state: FSMContext)
         await _send_subscription_prompt(message, not_subscribed)
         return
 
-    await _finish_registration(message, referrer_id)
+    await _finish_registration(message, message.from_user, referrer_id)
 
 
 @router.callback_query(F.data == "check_subscription")
@@ -160,5 +169,7 @@ async def check_subscription_callback(callback: CallbackQuery, state: FSMContext
 
     await callback.answer("✅ Tabriklaymiz!")
     await callback.message.delete()
-    await _finish_registration(callback.message, referrer_id=referrer_id)
+    # MUHIM: user sifatida callback.from_user beriladi (HAQIQIY odam),
+    # callback.message.from_user EMAS (bu bot hisobi bo'lardi).
+    await _finish_registration(callback.message, callback.from_user, referrer_id=referrer_id)
     await state.update_data(pending_referrer_id=None)
